@@ -1,0 +1,34 @@
+/* From here we will start the css that will make the main part of the home page responsive */
+
+@media screen and (max-width: 580px){
+
+}
+
+
+/* From here css that will make the font size of the main description will start */
+@media screen and (max-width: 631px){
+    .main_description{
+        font-size: 13.2vw;
+    }
+
+    .secondary_description{
+        font-size: 6.2vw;
+    }
+
+    .last_description{
+        font-size: 5.2vw;
+    }
+
+    .card{
+        position: inherit;
+    }
+}
+
+
+/* From here we will start the css that will make the card part of the home page responsive */
+
+@media screen and (max-width: 1144px){
+    .card_part{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 627px){
+    .course-card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .course-description{
+        display: none;
+    }
+
+    .course-img{
+        /* position: relative; */
+        /* height: 98px; */
+        height: 15em;
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 301px){
+    .course-img{
+        position: relative;
+        /* height: 98px; */
+        height: 40%;
+        width: 75%;
+    } 
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-heading-hr{
+    width: 92vw;
+    margin: auto;
+}
+
+.course-card{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: rgb(243, 240, 240);
+    width: 80vw;
+    margin: 3rem auto;
+    padding: 12px 12px;
+    height: 20rem;
+    border-radius: 28px;
+}
+
+.course-img{
+    border-radius: 28px;
+    margin-left: 10px;
+    height: 12rem;
+    width: 12rem;
+}
+
+.course-content{
+    margin: 12px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-heading{
+    color: #2769ad;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.course-description{
+    word-wrap: break-word;
+    margin: 10px 0px;
+    font-family: 'Merriweather', sans-serif;
+    overflow-y: auto;
+}
+
+.card-hr{
+    width: 75vw;
+    margin: auto;
+}
+
+
+.btn{
+    padding: 12px 0px;
+}

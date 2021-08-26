@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Designing of the main part starts here */
+
+.main_part{
+    background: url(../img/main_part_background_img.png) ;
+    background-repeat: no-repeat;
+    
+    height: 520px;
+    /* margin-top: 90px; */
+    background-size: cover;
+    /* opacity: 0.6; */
+}
+
+.main_part_company_description{
+    /* border: 5px dotted red; */
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute;*/
+    justify-content: center;
+    top: 45vw; 
+    height: inherit;
+    /* justify-self: center; */
+    margin: 0px;
+    /* width: inherit; */
+    left: 15rem;
+    /* height: 20%; */
+    /* visibility: hidden; */
+}
+
+
+.main_description{
+    font-size: 6.2vw;
+    font-family: 'Merriweather', serif;
+    color: red;
+    /* text-decoration: underline; */
+    font-weight: bolder;
+}
+
+.secondary_description{
+    font-size: 3.6vw;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    color: rgb(233, 255, 32);
+}
+/* #fbf3f3 */
+
+.last_description{
+    font-size: 3.2vw;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    color: rgb(226, 106, 8);
+}
+
+
+/* Designing of the main part ends here */
+
+/* Designing of the card part starts here */
+
+.card_part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin-left: 5vw;
+    margin-top: 2vw;
+    /* height: 45px; */
+}
+.card_img_top{
+    margin: 12px 23px;
+}
+
+/* .card-body{
+    height: 45px;
+} */
+
+/* Designing of the card part ends here */

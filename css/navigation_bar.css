@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.nav_bar{
+    display: flex;
+    background-color: rgb(70, 112, 206);
+    /* overflow: visible; */
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease-out;
+}
+
+#company_name a{
+    color: #5bf758;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.company{
+    transition: all 0.3s ease-out;
+}
+
+
+
+.first_part{
+    display: flex;
+    margin: 12px;
+    align-items: center;
+    
+}
+
+.first_part div{
+    margin: 0px 6px;
+}
+
+.search_item_div{
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+
+.search_item_div > * {
+    margin: 0px 6px;
+}
+
+.search_item_div input{
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 2px 6px;
+    /* border-bottom: 3px solid red; */
+    background-color: rgb(242 254 255);
+}
+
+
+.second_part{
+    position: absolute;
+    right: 0px;
+    margin-right: 33px;
+    margin-top: 27px;
+    display: flex;
+    transition: all 0.3s ease-out;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-right: 36px;
+    font-size: 20px;
+}
+
+.link:hover{
+    color: grey;
+}
+
+
+#link-active{
+    color: grey;
+}
+
+
+
+.nav_list_ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav_btn_div{
+    margin-right: 36px;
+}
+
+.nav_btn{
+    font-size: 16px;
+    padding: 6px 12px;
+    margin-left: 4px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(250, 46, 46);
+}
+
+.nav_btn:hover{
+    background-color: rgb(219, 8, 8);
+}
+
+.nav_btn > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hamburger{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.main-heading{
+    color: rgb(70, 112, 206);
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 0px;
+    font-family: 'Playfair Display', serif;
+}

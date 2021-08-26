@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer{
+    /* position: absolute; */
+    height: 15%;
+    top: 85%;
+    /* bottom: 0%; */
+    text-align: center;
+    background-color: rgb(70, 112, 206);
+    margin-top: 50px;
+    padding: 23px 0px;
+    font-size: 1.3rem;
+    color: rgb(252, 83, 64);
+    font-weight: bold;
+    width: 100%;
+}
